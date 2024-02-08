@@ -1,0 +1,88 @@
+
+header > nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+}
+
+header li {
+    text-align: center;
+    padding: 15px;
+}
+
+
+header a {
+    padding: 1em;
+}
+
+section {
+    margin: 15px;
+    padding: 10px;
+}
+section h3 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 60px;
+    
+}
+main div {
+    display: flex;
+    padding: 1px;
+}
+main aside a {
+    padding: 1em;
+}
+main div img {
+    width: 250px;
+    height: 220px;
+    flex-grow: 1;
+    padding: 5px;
+    margin: 2px;
+}
+
+
+aside section h3 {
+    text-align: center;
+}
+
+aside section ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+aside section nav li {
+    padding: 10px;
+    margin: 5px;
+    flex-basis: 100%;
+    text-align: left;
+}
+aside section nav p {
+    padding: 2px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    display: flow-root;
+}
+footer img {
+    width: 90px;
+    height: 60px;
+    float: right;
+}
