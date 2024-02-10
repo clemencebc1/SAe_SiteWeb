@@ -1,3 +1,4 @@
+/*style concernant le header du body*/
 body {
     background-color: #435585;
 }
@@ -21,10 +22,10 @@ header a {
     color:white;
 }
 
-header a:hover {
+header a:hover { /*pour changer la couleur des liens lorsque la souris est dessus*/
     color: black;
 }
-
+/*style concernant le main du body*/
 main section {
     background-color: white;
     border-color: #e6b04c;
@@ -34,7 +35,7 @@ main a {
     color: black;
     font-size:17px;
 }
-main a:hover {
+main a:hover { 
     color:#005DA3;
 }
 main article section:nth-child(2) {
@@ -78,7 +79,7 @@ aside section nav li {
     list-style-type: none;
     text-align: left;
 }
-
+/*style concernant le footer du body*/
 footer {
     background-color: #b9c4e2a4;
     border: 1px solid;

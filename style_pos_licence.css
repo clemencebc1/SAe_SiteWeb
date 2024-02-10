@@ -1,4 +1,4 @@
-
+/*style de position concernant le header du body*/
 header > nav {
     display: flex;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@ header li {
 header a {
     padding: 1em;
 }
-
+/*style de position concernant le main du body*/
 section {
     margin: 15px;
     padding: 10px;
@@ -75,7 +75,7 @@ aside section nav p {
     padding: 2px;
     text-align: center;
 }
-
+/*style de position concernant le footer du body*/
 footer {
     text-align: center;
     padding: 1em;
